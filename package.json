@@ -2,10 +2,15 @@
   "name": "backend-project",
   "version": "1.0.0",
   "description": "This is my first project where i use backend and also practicing backend.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "author": "Zohaib Shah",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
 }
